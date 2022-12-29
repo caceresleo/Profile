@@ -348,18 +348,10 @@ footer {
     font-size: 40px;
    }   
 
-   .seccion-titulo {
-    font-size: 1.5rem;
-
-    }
-
-    .seccion-descripcion {
-        font-size: 1.0rem;
-    }
-
-    .seccion-texto {
-        font-size: 1.0rem;
-    }
+   .sobre-mi {
+    height: 700px;
+    padding: 10px;
+   }
 
     .testimonio-imagen {
         height: 100px;
