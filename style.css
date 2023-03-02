@@ -27,13 +27,13 @@ h1 {
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
 .seccion-descripcion {
     font-size: 1.2rem;
     color: #584e4e;
-}
-
-.seccion-texto {
-    font-size: 1.2rem;
 }
 
 .seccion-oscura {
@@ -65,9 +65,8 @@ h1 {
     padding: 3rem;
 }
 .hero-imagen-perfil {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+    width: 60%;
+    height: auto;
 }
 .hero-principal h2 {
     font-size: 1.5rem;
@@ -80,7 +79,7 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-    max-width: 600px;
+    max-width: 60%;
     text-align: center;
 }
 
@@ -127,6 +126,12 @@ h1 {
     background-color: #0a0a23;
     padding: 8px 19px;
     border-radius: 50%;
+}
+
+.columna p {
+    margin: 0 auto;
+    text-indent: 1cm;
+    text-align: justify;
 }
 
 /* Proyectos */
@@ -294,6 +299,24 @@ h1 {
     color: black;
   }
 
+/* boton de whatsapp */  
+.botonWhatsapp{
+    position : fixed;
+	right: 5%;
+	top: 70%;
+	width: 8%;
+	border-radius: 50%;	
+	background-color: transparent;
+	border-color: transparent;
+}
+.botonWhatsapp:hover{
+    width: 10.5%;
+}
+.botonWhatsapp img{
+    width: 100%;
+}
+
+
   /* pie de pagina */
 footer {
     min-height: 500px;
@@ -341,25 +364,233 @@ footer {
 }
 /* Adaptable (Responsivo) */
 @media screen and (max-width: 480px) {
-   .overlay p {
-    font-size: 18px;
-   }
-   .overlay i {
-    font-size: 40px;
-   }   
 
-   .sobre-mi {
-    height: 700px;
-    padding: 10px;
-   }
-
-    .testimonio-imagen {
-        height: 100px;
-        width: 100px;
+    .navbar {
+        padding: 1rem;
+        background-color: #f5f6f7;
     }
+
+    .hero {
+        min-height: 350px;
+        text-align: center;
+
+    }
+    
+    .hero-principal {
+        padding: 1rem;
+    }
+    .hero-imagen-perfil {
+        width: 250px;
+        height: auto;
+    }
+    .hero-principal h2 {
+        font-size: 1rem;
+        color: #615151;
+    }
+    .hero-inferior-imagen{
+        width: 60%;
+    }
+  /* .............*/
+   .sobre-mi {
+    height: auto;
+    padding: 2px;
+    }
+    
+    
+    .sobre-mi .contenedor {
+        max-width: 90%;
+        text-align: justify;
+    }
+
+    .seccion-titulo {
+        font-size: 1.5rem;
+        padding: 15px 0;
+        text-align: center;
+
+    }
+    
+    .seccion-texto {
+        font-size: 1rem;
+    }
+  /* ....Experiencia.........*/
+  .experiencia {
+    padding: 20px;
+    }
+
+    .experiencia-titulo {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .badges-contenedor {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .badge {
+        margin: 5px;
+    }
+
+    .experiencia .columna {
+        padding: 20px;
+    }
+
+    .experiencia .columna:hover {
+        color: white;
+        background-color: #1b1b32;
+    }
+
+    .columna i {
+        font-size: 2rem;
+        padding: 8px 19px;
+    }
+
+    .columna p {
+        margin: 0 auto;
+        text-indent: 0;
+        text-align: center;
+    }
+
+  /*.......Proyectos..................*/
+
+
+
+  .proyectos-recientes {
+    padding: 10px;
+    }
+
+    .proyectos-contenedor {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    .overlay{
+        padding: 0;
+        width: 100%;
+    }
+
+    .overlay p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .overlay .iconos-contenedor {
+        display: block;
+        align-items: center;
+    }
+    
+    .overlay i {
+        font-size: 50px;
+    }
+   /*..........................*/
+
+   /*  Articulos  */
+        .articulos {
+            min-height: 400px;
+            padding: 0;
+        }
+        .articulos .card {
+            width: 90%;
+            max-width: 600px;
+            margin: 10px;
+        }
+        .articulos .card-header {
+            font-weight: bold;
+        }
+
+    /*..............................*/
+
+/*Testimonios */
+    .testimonios {
+        padding: 20px 10px 40px 10px;
+    }
+    .testimonios .carousel {
+        max-width: 800px;
+
+    }
+    .carousel-item {
+        height: 500px;
+    }
+
+    .carousel-item .container i {
+        font-size: 90px;
+        margin: 5px 5px 5px 5px;
+    }
+
     .testimonio-texto {
+        max-width: 90%;
         font-size: 15px;
     }
+
+/* Contacto */
+    .contacto .container {
+        padding: 15px;
+    }
+
+
+    .contacto .descripcion {
+        color: white;
+        font-size: 1rem;
+    }
+    .contacto button {
+        padding: 1em 1em;
+        margin: 10px;
+    }
+
+    .contacto button i {
+        font-size: 1.2rem;
+    }
+
+
+    /* boton de whatsapp */  
+
+    .botonWhatsapp{
+        position : fixed;
+        right: 2%;
+        top: 45%;
+        width: 8%;
+    }
+    .botonWhatsapp{
+        width: 20%;
+    }
+    .botonWhatsapp:hover{
+        width: 20.5%;
+    }
+
+  /* pie de pagina */
+  footer {
+    min-height: 300px;
+    }
+    .footer-logo {
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+    }
+    .footer-texto {
+        font-size: 1rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .iconos-redes-sociales a {
+        width: 30px;
+        height: 30px;
+
+        padding: 1px;
+        margin: 5px;
+    }
+    .iconos-redes-sociales i {
+        font-size: 1rem;
+    }
+
+    .derechos-de-autor {
+        font-size: 11px;
+        color: #aeaeae;
+        padding: 20px;
+    }    
     
 }
 
