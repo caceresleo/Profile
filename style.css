@@ -236,8 +236,9 @@ h1 {
 .testimonio-texto {
     font-family: 'Share Tech Mono', monospace;
     max-width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    line-height: 110%;
 }
 .testimonio-imagen{
     height: 150px;
