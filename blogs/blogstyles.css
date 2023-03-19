@@ -140,10 +140,10 @@ h3{
 @media screen and (max-width: 480px) {
 
     h1{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .navbar {
         padding: 1rem;
@@ -155,7 +155,7 @@ h3{
   
     }
     .articulo{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .compartir p{
