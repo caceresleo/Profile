@@ -136,3 +136,63 @@ h3{
     color: #aeaeae;
     padding: 20px;
 }
+
+@media screen and (max-width: 480px) {
+
+    h1{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .navbar {
+        padding: 1rem;
+        background-color: #f5f6f7;
+    }
+
+    .presentador img{
+        width: 40px;
+  
+    }
+    .articulo{
+        font-size: 0.9rem;
+    }
+
+    .compartir p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+  /* pie de pagina */
+  footer {
+    min-height: 300px;
+    }
+    .footer-logo {
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+    }
+    .footer-texto {
+        font-size: 1rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .iconos-redes-sociales a {
+        width: 30px;
+        height: 30px;
+
+        padding: 1px;
+        margin: 5px;
+    }
+    .iconos-redes-sociales i {
+        font-size: 1rem;
+    }
+
+    .derechos-de-autor {
+        font-size: 11px;
+        color: #aeaeae;
+        padding: 20px;
+    }   
+
+}
