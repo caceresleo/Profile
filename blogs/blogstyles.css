@@ -1,0 +1,138 @@
+/* Barra de navegacion */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Bevan', cursive;
+    color: rgb(59, 58, 58);
+}
+h3{
+    font-family: 'Bevan', cursive;
+    color: rgb(59, 58, 58);    
+}
+
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+/*..................................*/
+.presentador img{
+    width: 50px;
+    border-radius: 50%;
+
+}
+.imagenRedes img{
+    width: 100%;
+    height: auto;
+}                     
+
+.articulo{
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.compartir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15px;
+}
+.compartir p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ..... FOOTER .............. */
+
+  /* pie de pagina */
+  footer{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+.footer-logo {
+    height: 120px;
+    width: 120px;
+    margin: 15px;
+    background-color: white;
+}
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
